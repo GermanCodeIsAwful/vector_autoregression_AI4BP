@@ -1,0 +1,6 @@
+# Pakete fuer die VAR-Uebungsnotebooks
+jupyterlab
+numpy
+pandas
+matplotlib
+

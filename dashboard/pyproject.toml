@@ -1,0 +1,18 @@
+[project]
+name = "var-dashboard"
+version = "0.1.0"
+description = "VAR Live-Demo Dashboard (Streamlit) fuer den AI4BP-Kurs"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.40",
+    "altair>=5.4",
+    "numpy>=2.0",
+    "pandas>=2.2",
+]
+
+[tool.uv]
+# Dies ist eine App, kein installierbares Paket: uv soll nur die
+# Abhaengigkeiten aufloesen, nicht das Projekt selbst bauen.
+package = false
+

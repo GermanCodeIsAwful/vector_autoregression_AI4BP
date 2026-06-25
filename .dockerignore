@@ -1,0 +1,14 @@
+# Build-Kontext ist der Projekt-Root. Nur Unnoetiges ausschliessen,
+# data/ MUSS im Kontext bleiben (das Dashboard liest daraus).
+**/.venv
+**/__pycache__
+**/*.pyc
+**/.ipynb_checkpoints
+.git
+.gitignore
+kurs_uebung
+info
+README.md
+data/get_data.py
+data/get_data_2.py
+

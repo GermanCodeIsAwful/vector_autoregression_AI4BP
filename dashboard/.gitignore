@@ -1,0 +1,5 @@
+# von uv erzeugte virtuelle Umgebung
+.venv/
+__pycache__/
+*.pyc
+
